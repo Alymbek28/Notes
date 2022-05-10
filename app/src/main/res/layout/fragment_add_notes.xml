@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#222"
+    android:gravity="center"
+    tools:context=".AddNotesFragment">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_margin="6dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter title"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/shape_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_margin="6dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter description"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp"
+        android:background="@drawable/shape_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:textColor="@color/white"
+        android:layout_margin="6dp"
+        android:text="ADD"
+        android:background="@drawable/shape_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
